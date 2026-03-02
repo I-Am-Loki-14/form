@@ -6,19 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 
 <body>
     <main>
         <form action="###" method="get">
-            <h1>Creat Account</h1>
-            <label for="name">Name</label>
+            <h3>CREATE ACCOUNT</h3>
             <div>
-                <input type="text" placeholder="Name" required autofocus>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" required autofocus>
             </div>
-            <label for="password">Password</label>
             <div>
+                <label for="password">Password</label>
                 <input type="password" placeholder="Password" required>
+            </div>
+            <div class="firstlastnames">
+                <div class="firstname">
+                    <label for="firstname">Fast Name</label>
+                    <input type="text" name="firstname" id="fastname">
+                </div>
+                <div class="lastname">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+            </div>
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
+            <div class="login-instead">
+                <p>Already Have An Account?&nbsp;<a href="###">Login instead</a></p>
+            </div>
+            <div style="text-align: center;color: whitesmoke;">
+                <p>Or</p>
+            </div>
+            <div class="login-method">
+                <span><img src="./img/google.png" alt="" width="20px">&ensp;Google</span>
+
+                <span><img src="./img/facebook.png" alt="" width="20px">&ensp;Facebook</span>
+
+                <span><img src="./img/twitter.png" alt="" width="20px">&ensp;Twitter</span>
             </div>
         </form>
     </main>

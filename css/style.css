@@ -6,17 +6,80 @@
   margin: 0;
 }
 main {
-  background-color: #797979;
+  background-color: #969696e1;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0;
 }
 form {
-  background-color: #222;
-  width: 400px;
-  height: 500px;
+  background-color: #090909f2;
+  width: 40%;
+  /* height: 500px; */
   border: 1px solid #fff;
   border-radius: 0.5rem;
+  padding: 1.5rem 1.8rem;
+}
+form h3 {
+  color: rgb(215, 216, 217);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+form div {
+  margin: 1rem 0;
+}
+form label {
+  color: #e0e0e0;
+}
+form div input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #969696e1;
+  border-radius: 0.5rem;
+}
+::placeholder {
+  color: transparent;
+}
+form .firstlastnames {
+  display: flex;
+  justify-content: space-between;
+}
+form .firstlastnames .firstname {
+  margin-right: 2rem;
+}
+.firstname,
+.lastname {
+  width: 50%;
+}
+form button {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 1.2rem;
+  padding: 0.7rem 0.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: chartreuse;
+}
+form button:hover {
+  background-color: rgba(128, 255, 0, 0.873);
+}
+form .login-instead {
+  color: #969696e1;
+  text-align: center;
+}
+form .login-instead a {
+  color: #bdbcbce1;
+  text-decoration: underline;
+}
+.login-method {
+  display: flex;
+  justify-content: space-around;
+}
+.login-method span {
+  color: rgb(215, 216, 216) !important;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
 }
