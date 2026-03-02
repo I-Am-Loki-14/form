@@ -36,9 +36,14 @@ form label {
 }
 form div input {
   width: 100%;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1rem;
   background-color: #969696e1;
   border-radius: 0.5rem;
+  border: 1px solid #444;
+}
+form div input:focus {
+  border-color: chartreuse; /* Focus ဖြစ်ရင် ခလုတ်အရောင်အတိုင်း လင်းလာမယ် */
+  outline: none;
 }
 ::placeholder {
   color: transparent;
@@ -82,4 +87,5 @@ form .login-instead a {
   display: flex;
   align-items: center;
   font-size: 0.8rem;
+  cursor: pointer;
 }
