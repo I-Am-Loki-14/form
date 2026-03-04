@@ -13,6 +13,10 @@ main {
   justify-content: center;
   align-items: center;
   padding: 2rem 0;
+  background-image: url(../img/IMG-9a7b1a1cd027859701b6fc5c176337af-V.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 form {
   background-color: #090909f2;
