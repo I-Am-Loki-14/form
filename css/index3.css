@@ -1,0 +1,83 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+main {
+  border-width: 100%;
+  height: 100vh;
+  background-image: url(../img/yuri_b-flower-3175428_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+form .form_logo {
+  width: 100%;
+  text-align: center;
+  margin: 0.1rem 0;
+  cursor: pointer;
+  padding: 0.2rem 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form_logo span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+form {
+  width: 500px;
+  /* height: 400px; */
+  border-radius: 1rem;
+  border: 2px solid transparent;
+  padding: 5rem;
+  backdrop-filter: blur(3px);
+  box-shadow:
+    inset -20px 6px 15px rgb(40, 37, 37),
+    -20px 5px 10px #222;
+  background-color: rgba(252, 255, 255, 0.967);
+}
+form label,
+input {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+input {
+  padding: 0.8rem 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid transparent;
+  box-shadow:
+    inset -15px 5px 10px #3f3f3f,
+    -15px 5px 10px #3f3e3e;
+}
+button {
+  width: 100%;
+  padding: 0.8rem 0.5rem;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow:
+    inset -15px 5px 10px #3f3f3f,
+    -10px 5px 10px #3f3e3e;
+  cursor: pointer;
+  color: #131212;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button:hover {
+  border: 1px solid rgb(255, 254, 254);
+  box-shadow:
+    inset -15px 5px 10px #131212,
+    -15px 5px 5px transparent;
+  color: #131212b8;
+  transition: 0.3s;
+}
